@@ -23,14 +23,11 @@ export default function Footer({ onPrivacyClick }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-[#1a3b5c] flex items-center justify-center font-bold text-sm text-white">
-                DB
-              </div>
-              <span className="font-semibold text-white text-sm tracking-tight">
-                Kozijnen & Deuren
-              </span>
-            </div>
+            <img 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/16837212d_8051c5d1-eebb-4e8a-b2c0-71bf135047111.jpg"
+              alt="DB Kozijnen & Deuren"
+              className="h-10 w-auto object-contain mb-4 brightness-0 invert opacity-90"
+            />
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
               {t.footer.tagline}
             </p>

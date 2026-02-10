@@ -34,13 +34,13 @@ export default function Navbar({ onNavigate }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
-            <button onClick={() => handleNav('hero')} className="flex items-center gap-2 group">
-              <div className={`w-9 h-9 rounded-lg flex items-center justify-center font-bold text-sm transition-colors duration-300 ${scrolled ? 'bg-[#1a3b5c] text-white' : 'bg-white text-[#1a3b5c]'}`}>
-                DB
-              </div>
-              <span className={`font-semibold text-sm tracking-tight transition-colors duration-300 hidden sm:block ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-                Kozijnen & Deuren
-              </span>
+            <button onClick={() => handleNav('hero')} className="flex items-center group">
+              <img 
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/16837212d_8051c5d1-eebb-4e8a-b2c0-71bf135047111.jpg"
+                alt="DB Kozijnen & Deuren"
+                className={`h-8 sm:h-10 w-auto object-contain transition-all duration-300 ${scrolled ? 'drop-shadow-none' : 'drop-shadow-[0_0_8px_rgba(255,255,255,0.9)] brightness-110'}`}
+                style={{ filter: scrolled ? 'none' : 'drop-shadow(0 0 12px rgba(255,255,255,0.8)) drop-shadow(0 0 4px rgba(255,255,255,1))' }}
+              />
             </button>
 
             {/* Desktop Nav */}
