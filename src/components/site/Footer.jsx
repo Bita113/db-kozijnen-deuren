@@ -24,7 +24,7 @@ export default function Footer({ onPrivacyClick }) {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center font-bold text-sm text-slate-900">
+              <div className="w-9 h-9 rounded-lg bg-[#1a3b5c] flex items-center justify-center font-bold text-sm text-white">
                 DB
               </div>
               <span className="font-semibold text-white text-sm tracking-tight">

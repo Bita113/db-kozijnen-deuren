@@ -20,8 +20,8 @@ export default function HeroSection() {
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-500/8 rounded-full blur-3xl" />
+      <div className="absolute top-20 right-10 w-72 h-72 bg-orange-500/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 left-10 w-96 h-96 bg-orange-500/8 rounded-full blur-3xl" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 sm:py-40">
         <motion.div
@@ -37,14 +37,14 @@ export default function HeroSection() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 mb-8"
           >
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
+            <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse" />
             <span className="text-xs font-medium text-white/80 tracking-wide uppercase">Rotterdam, Netherlands</span>
           </motion.div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight">
             {t.hero.title}
             <br />
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
               {t.hero.titleAccent}
             </span>
           </h1>

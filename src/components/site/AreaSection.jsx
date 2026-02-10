@@ -12,7 +12,7 @@ export default function AreaSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
           <div>
-            <span className="inline-block px-3 py-1 rounded-full bg-cyan-50 text-cyan-700 text-xs font-semibold tracking-wide uppercase mb-4">
+            <span className="inline-block px-3 py-1 rounded-full bg-orange-50 text-orange-700 text-xs font-semibold tracking-wide uppercase mb-4">
               {t.area.sectionLabel}
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight">
@@ -33,7 +33,7 @@ export default function AreaSection() {
                   transition={{ delay: index * 0.05, duration: 0.3 }}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-slate-200 text-sm text-slate-700 font-medium shadow-sm"
                 >
-                  <MapPin className="w-3 h-3 text-cyan-500" />
+                  <MapPin className="w-3 h-3 text-orange-500" />
                   {location}
                 </motion.span>
               ))}
@@ -69,10 +69,10 @@ export default function AreaSection() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative">
                   {/* Pulsing center point */}
-                  <div className="w-32 h-32 rounded-full bg-cyan-500/10 flex items-center justify-center animate-pulse">
-                    <div className="w-20 h-20 rounded-full bg-cyan-500/20 flex items-center justify-center">
-                      <div className="w-10 h-10 rounded-full bg-cyan-500/40 flex items-center justify-center">
-                        <MapPin className="w-5 h-5 text-cyan-600" />
+                  <div className="w-32 h-32 rounded-full bg-orange-500/10 flex items-center justify-center animate-pulse">
+                    <div className="w-20 h-20 rounded-full bg-orange-500/20 flex items-center justify-center">
+                      <div className="w-10 h-10 rounded-full bg-orange-500/40 flex items-center justify-center">
+                        <MapPin className="w-5 h-5 text-orange-600" />
                       </div>
                     </div>
                   </div>
@@ -88,7 +88,7 @@ export default function AreaSection() {
                   ].map((style, i) => (
                     <div
                       key={i}
-                      className="absolute w-2 h-2 rounded-full bg-cyan-400/60"
+                      className="absolute w-2 h-2 rounded-full bg-orange-400/60"
                       style={style}
                     />
                   ))}
@@ -99,7 +99,7 @@ export default function AreaSection() {
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-slate-200/50">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-lg bg-cyan-500 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-lg bg-orange-500 flex items-center justify-center">
                       <MapPin className="w-5 h-5 text-white" />
                     </div>
                     <div>

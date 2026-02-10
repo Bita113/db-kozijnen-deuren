@@ -35,7 +35,7 @@ export default function Navbar({ onNavigate }) {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <button onClick={() => handleNav('hero')} className="flex items-center gap-2 group">
-              <div className={`w-9 h-9 rounded-lg flex items-center justify-center font-bold text-sm transition-colors duration-300 ${scrolled ? 'bg-slate-900 text-white' : 'bg-white text-slate-900'}`}>
+              <div className={`w-9 h-9 rounded-lg flex items-center justify-center font-bold text-sm transition-colors duration-300 ${scrolled ? 'bg-[#1a3b5c] text-white' : 'bg-white text-[#1a3b5c]'}`}>
                 DB
               </div>
               <span className={`font-semibold text-sm tracking-tight transition-colors duration-300 hidden sm:block ${scrolled ? 'text-slate-900' : 'text-white'}`}>
@@ -59,13 +59,13 @@ export default function Navbar({ onNavigate }) {
               <div className={`ml-3 flex items-center rounded-full p-0.5 ${scrolled ? 'bg-slate-100' : 'bg-white/15'}`}>
                 <button
                   onClick={() => setLanguage('en')}
-                  className={`px-3 py-1 text-xs font-semibold rounded-full transition-all duration-200 ${language === 'en' ? (scrolled ? 'bg-slate-900 text-white' : 'bg-white text-slate-900') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}
+                  className={`px-3 py-1 text-xs font-semibold rounded-full transition-all duration-200 ${language === 'en' ? (scrolled ? 'bg-[#1a3b5c] text-white' : 'bg-white text-[#1a3b5c]') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}
                 >
                   EN
                 </button>
                 <button
                   onClick={() => setLanguage('nl')}
-                  className={`px-3 py-1 text-xs font-semibold rounded-full transition-all duration-200 ${language === 'nl' ? (scrolled ? 'bg-slate-900 text-white' : 'bg-white text-slate-900') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}
+                  className={`px-3 py-1 text-xs font-semibold rounded-full transition-all duration-200 ${language === 'nl' ? (scrolled ? 'bg-[#1a3b5c] text-white' : 'bg-white text-[#1a3b5c]') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}
                 >
                   NL
                 </button>
@@ -75,8 +75,8 @@ export default function Navbar({ onNavigate }) {
             {/* Mobile Menu Button */}
             <div className="flex items-center gap-2 md:hidden">
               <div className={`flex items-center rounded-full p-0.5 ${scrolled ? 'bg-slate-100' : 'bg-white/15'}`}>
-                <button onClick={() => setLanguage('en')} className={`px-2.5 py-1 text-xs font-semibold rounded-full transition-all ${language === 'en' ? (scrolled ? 'bg-slate-900 text-white' : 'bg-white text-slate-900') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}>EN</button>
-                <button onClick={() => setLanguage('nl')} className={`px-2.5 py-1 text-xs font-semibold rounded-full transition-all ${language === 'nl' ? (scrolled ? 'bg-slate-900 text-white' : 'bg-white text-slate-900') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}>NL</button>
+                <button onClick={() => setLanguage('en')} className={`px-2.5 py-1 text-xs font-semibold rounded-full transition-all ${language === 'en' ? (scrolled ? 'bg-[#1a3b5c] text-white' : 'bg-white text-[#1a3b5c]') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}>EN</button>
+                <button onClick={() => setLanguage('nl')} className={`px-2.5 py-1 text-xs font-semibold rounded-full transition-all ${language === 'nl' ? (scrolled ? 'bg-[#1a3b5c] text-white' : 'bg-white text-[#1a3b5c]') : (scrolled ? 'text-slate-500' : 'text-white/70')}`}>NL</button>
               </div>
               <button onClick={() => setMobileOpen(!mobileOpen)} className={`p-2 rounded-lg transition-colors ${scrolled ? 'text-slate-900 hover:bg-slate-100' : 'text-white hover:bg-white/10'}`}>
                 {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
