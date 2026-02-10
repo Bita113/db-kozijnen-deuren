@@ -35,12 +35,11 @@ export default function Navbar({ onNavigate }) {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <button onClick={() => handleNav('hero')} className="flex items-center gap-2 group">
-              <div className={`w-9 h-9 rounded-lg flex items-center justify-center font-bold text-sm transition-colors duration-300 ${scrolled ? 'bg-[#1a3b5c] text-white' : 'bg-white text-[#1a3b5c]'}`}>
-                DB
-              </div>
-              <span className={`font-semibold text-sm tracking-tight transition-colors duration-300 hidden sm:block ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-                Kozijnen & Deuren
-              </span>
+              <img 
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/cebdef69d_8051c5d1-eebb-4e8a-b2c0-71bf13504711.jpg"
+                alt="DB Kozijnen & Deuren"
+                className="h-10 sm:h-12 w-auto object-contain"
+              />
             </button>
 
             {/* Desktop Nav */}
