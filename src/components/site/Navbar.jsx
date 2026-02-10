@@ -36,9 +36,9 @@ export default function Navbar({ onNavigate }) {
             {/* Logo */}
             <button onClick={() => handleNav('hero')} className="flex items-center gap-2 group">
               <img 
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/cebdef69d_8051c5d1-eebb-4e8a-b2c0-71bf13504711.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/3695a6c6e_426292d1-bb5b-405a-a106-41ac669174bf.jpg"
                 alt="DB Kozijnen & Deuren"
-                className="h-10 sm:h-12 w-auto object-contain"
+                className={`h-10 sm:h-12 w-auto object-contain transition-all duration-300 ${scrolled ? '' : 'brightness-0 invert'}`}
               />
             </button>
 
