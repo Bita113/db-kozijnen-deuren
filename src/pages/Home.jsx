@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { LanguageProvider } from '../components/LanguageContext';
+import SEOHead from '../components/SEOHead';
 import Navbar from '../components/site/Navbar';
 import HeroSection from '../components/site/HeroSection';
 import ServicesSection from '../components/site/ServicesSection';
