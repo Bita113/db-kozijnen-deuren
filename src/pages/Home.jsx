@@ -15,6 +15,7 @@ export default function Home() {
 
   return (
     <LanguageProvider>
+      <SEOHead />
       <div className="min-h-screen bg-white antialiased">
         <Navbar />
         <HeroSection />
