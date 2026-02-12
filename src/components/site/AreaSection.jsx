@@ -61,9 +61,9 @@ export default function AreaSection() {
           >
             <div className="aspect-square rounded-3xl bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden relative">
               <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
-                alt="Rotterdam cityscape"
-                className="w-full h-full object-cover opacity-0"
+                src="https://images.unsplash.com/photo-1585211969224-3e992bc25a9b?w=800&q=80"
+                alt="Rotterdam map"
+                className="w-full h-full object-cover opacity-20"
               />
               {/* Stylized map representation */}
               <div className="absolute inset-0 flex items-center justify-center">
