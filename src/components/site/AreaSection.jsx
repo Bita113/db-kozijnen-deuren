@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { MapPin, MessageCircle } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 export default function AreaSection() {
   const { t } = useLanguage();
@@ -25,21 +24,13 @@ export default function AreaSection() {
             {/* Location Tags */}
             <div className="mt-8 flex flex-wrap gap-2">
               {t.area.locations.map((location, index) => (
-                <motion.span
+                <span
                   key={location}
-                  initial={{ opacity: 0, scale: 0.94 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ 
-                    delay: index * 0.03, 
-                    duration: 0.3,
-                    ease: [0.16, 1, 0.3, 1]
-                  }}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-slate-200 text-sm text-slate-700 font-medium shadow-sm"
                 >
                   <MapPin className="w-3 h-3 text-orange-500" />
                   {location}
-                </motion.span>
+                </span>
               ))}
             </div>
 
@@ -56,16 +47,7 @@ export default function AreaSection() {
           </div>
 
           {/* Right - Map-like Visual */}
-          <motion.div
-            initial={{ opacity: 0, x: 15 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ 
-              duration: 0.6,
-              ease: [0.16, 1, 0.3, 1]
-            }}
-            className="relative"
-          >
+          <div className="relative">
             <div className="aspect-square rounded-3xl bg-slate-900 overflow-hidden relative">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/ee4d24b24_IMG_6781.jpg"
@@ -88,7 +70,7 @@ export default function AreaSection() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

@@ -63,7 +63,7 @@ export default function WhyUsSection() {
                 <p className="text-sm text-slate-400 leading-relaxed">
                   {item.description}
                 </p>
-              </motion.div>
+              </div>
             );
           })}
         </div>

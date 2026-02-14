@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { Wrench, RefreshCw, Ruler, Factory, Truck, Layers } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 const icons = [Wrench, RefreshCw, Ruler, Factory, Truck, Layers];
 
@@ -38,16 +37,8 @@ export default function ServicesSection() {
           {t.services.items.map((service, index) => {
             const Icon = icons[index];
             return (
-              <motion.div
+              <div
                 key={index}
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-50px', amount: 0.2 }}
-                transition={{ 
-                  delay: index * 0.05, 
-                  duration: 0.5,
-                  ease: [0.16, 1, 0.3, 1]
-                }}
                 className="group relative p-8 rounded-2xl bg-slate-50/80 hover:bg-white border border-slate-100 hover:border-slate-200 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300"
               >
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-500">
@@ -59,7 +50,7 @@ export default function ServicesSection() {
                 <p className="text-sm text-slate-500 leading-relaxed">
                   {service.description}
                 </p>
-              </motion.div>
+              </div>
             );
           })}
         </div>
