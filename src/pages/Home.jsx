@@ -6,6 +6,7 @@ import HeroSection from '../components/site/HeroSection';
 import ServicesSection from '../components/site/ServicesSection';
 import WhyUsSection from '../components/site/WhyUsSection';
 import AreaSection from '../components/site/AreaSection';
+import GallerySection from '../components/site/GallerySection';
 import ContactSection from '../components/site/ContactSection';
 import Footer from '../components/site/Footer';
 import PrivacyModal from '../components/site/PrivacyModal';
@@ -21,6 +22,7 @@ export default function Home() {
         <HeroSection />
         <ServicesSection />
         <WhyUsSection />
+        <GallerySection />
         <AreaSection />
         <ContactSection />
         <Footer onPrivacyClick={() => setPrivacyOpen(true)} />
