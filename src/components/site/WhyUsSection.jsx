@@ -10,6 +10,15 @@ export default function WhyUsSection() {
 
   return (
     <section id="why-us" className="py-24 sm:py-32 bg-slate-950 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 opacity-10">
+        <img
+          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/0a68836ca_unnamed.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+      
       {/* Subtle gradients */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-orange-500/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-orange-500/5 rounded-full blur-3xl" />
