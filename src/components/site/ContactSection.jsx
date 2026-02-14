@@ -37,13 +37,11 @@ export default function ContactSection() {
             href="https://wa.me/40785570289"
             target="_blank"
             rel="noopener noreferrer"
-            initial={{ opacity: 0, y: 12, scale: 0.96, filter: 'blur(4px)' }}
-            whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            whileHover={{ scale: 1.03, y: -4 }}
-            whileTap={{ scale: 0.98 }}
-            className="group flex flex-col items-center text-center p-10 rounded-2xl bg-emerald-50 border-2 border-emerald-100 hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-100/50 transition-all duration-500 cursor-pointer"
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="group flex flex-col items-center text-center p-10 rounded-2xl bg-emerald-50 border-2 border-emerald-100 hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-100/50 transition-all duration-300 cursor-pointer"
           >
             <div className="w-16 h-16 rounded-2xl bg-emerald-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-emerald-500/25">
               <MessageCircle className="w-8 h-8 text-white" />
@@ -67,13 +65,11 @@ export default function ContactSection() {
             href="https://www.facebook.com/darius.budeic"
             target="_blank"
             rel="noopener noreferrer"
-            initial={{ opacity: 0, y: 12, scale: 0.96, filter: 'blur(4px)' }}
-            whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ delay: 0.1, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            whileHover={{ scale: 1.03, y: -4 }}
-            whileTap={{ scale: 0.98 }}
-            className="group flex flex-col items-center text-center p-10 rounded-2xl bg-blue-50 border-2 border-blue-100 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-100/50 transition-all duration-500 cursor-pointer"
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ delay: 0.1, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="group flex flex-col items-center text-center p-10 rounded-2xl bg-blue-50 border-2 border-blue-100 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-100/50 transition-all duration-300 cursor-pointer"
           >
             <div className="w-16 h-16 rounded-2xl bg-blue-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-blue-600/25">
               <Facebook className="w-8 h-8 text-white" />
