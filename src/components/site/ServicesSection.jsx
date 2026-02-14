@@ -15,7 +15,7 @@ export default function ServicesSection() {
         <img
           src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/7abd49b9a_unnamed-1.jpg"
           alt=""
-          className="w-full h-full object-cover scale-[0.8]"
+          className="w-full h-full object-cover"
         />
       </div>
       
