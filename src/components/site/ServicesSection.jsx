@@ -11,7 +11,7 @@ export default function ServicesSection() {
   return (
     <section id="services" className="relative py-24 sm:py-32 bg-white overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-40">
         <img
           src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/7abd49b9a_unnamed-1.jpg"
           alt=""
