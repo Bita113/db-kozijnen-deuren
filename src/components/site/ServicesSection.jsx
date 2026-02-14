@@ -13,7 +13,7 @@ export default function ServicesSection() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-5">
         <img
-          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/08ca785f6_unnamed-4.jpg"
+          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/7abd49b9a_unnamed-1.jpg"
           alt=""
           className="w-full h-full object-cover"
         />
