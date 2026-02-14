@@ -26,7 +26,7 @@ export default function Footer({ onPrivacyClick }) {
             <img 
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/16837212d_8051c5d1-eebb-4e8a-b2c0-71bf135047111.jpg"
               alt="DB Kozijnen & Deuren"
-              className="h-10 w-auto object-contain mb-4 brightness-0 invert opacity-90"
+              className="h-10 w-auto object-contain mb-4"
             />
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
               {t.footer.tagline}
