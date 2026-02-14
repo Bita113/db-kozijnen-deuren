@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { Award, MapPin, Handshake, HardHat, MessageSquare } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 const icons = [Award, MapPin, Handshake, HardHat, MessageSquare];
 
@@ -42,16 +41,8 @@ export default function WhyUsSection() {
           {t.whyUs.items.map((item, index) => {
             const Icon = icons[index];
             return (
-              <motion.div
+              <div
                 key={index}
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-50px', amount: 0.2 }}
-                transition={{ 
-                  delay: index * 0.05, 
-                  duration: 0.5,
-                  ease: [0.16, 1, 0.3, 1]
-                }}
                 className={`group p-8 rounded-2xl border border-white/5 hover:border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-all duration-300 ${index === 4 ? 'sm:col-span-2 lg:col-span-1' : ''}`}
               >
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-orange-500/20 to-orange-600/20 flex items-center justify-center mb-5">
