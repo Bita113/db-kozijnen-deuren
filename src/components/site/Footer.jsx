@@ -113,6 +113,25 @@ export default function Footer({ onPrivacyClick }) {
             </div>
           </div>
         </div>
+
+        {/* Legal Sub-Footer */}
+        <div className="mt-8 pt-6 border-t border-white/5">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+            <div className="text-[10px] leading-relaxed text-slate-600 space-y-1">
+              <p className="font-semibold text-slate-500 uppercase tracking-wide mb-2">{t.footer.companyInfo}</p>
+              <p><span className="text-slate-500">{t.footer.kvkNumber}:</span> <span className="text-orange-400/80">{t.footer.toBeDetermined}</span></p>
+              <p><span className="text-slate-500">{t.footer.btwNumber}:</span> <span className="text-orange-400/80">{t.footer.toBeDetermined}</span></p>
+              <p><span className="text-slate-500">{t.footer.address}:</span> <span className="text-orange-400/80">{t.footer.toBeDetermined}</span></p>
+            </div>
+            <div className="text-[10px] leading-relaxed text-slate-600 max-w-2xl">
+              <p className="italic">
+                {t.language === 'nl' 
+                  ? 'DB Kozijnen & Deuren staat voor vakmanschap en betrouwbaarheid. Elk contact via WhatsApp of Facebook wordt uitsluitend gebruikt voor het verwerken van uw offerteaanvraag, zonder opslag van gegevens op onze servers. Uw privacy is gewaarborgd conform de AVG-wetgeving.'
+                  : 'DB Kozijnen & Deuren stands for craftsmanship and reliability. Any contact via WhatsApp or Facebook is used exclusively for processing your quotation request, without storing data on our servers. Your privacy is guaranteed in accordance with GDPR legislation.'}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );

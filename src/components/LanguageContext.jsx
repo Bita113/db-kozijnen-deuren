@@ -224,7 +224,7 @@ const translations = {
 };
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('nl');
   const t = translations[language];
 
   return (
