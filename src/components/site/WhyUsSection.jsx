@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { Award, MapPin, Handshake, HardHat, MessageSquare } from 'lucide-react';
 
-const icons = [Award, MapPin, Handshake, HardHat, MessageSquare];
+const icons = [Award, MapPin, Handshake, HardHat, MessageSquare]; 
 
 export default function WhyUsSection() {
   const { t } = useLanguage();
