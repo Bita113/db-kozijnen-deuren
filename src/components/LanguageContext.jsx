@@ -72,6 +72,11 @@ const translations = {
       rights: 'All rights reserved.',
       privacy: 'Privacy Policy',
       noDataNotice: 'This website does not collect, store, or process any personal data.',
+      companyInfo: 'Company Information',
+      kvkNumber: 'KvK number',
+      btwNumber: 'BTW number',
+      address: 'Address',
+      toBeDetermined: 'To be determined',
     },
     privacy: {
       title: 'Privacy Policy',
@@ -82,24 +87,24 @@ const translations = {
           content: 'DB Kozijnen & Deuren ("we", "us", "our") is committed to protecting your privacy. This privacy policy explains how we handle information in connection with our website.'
         },
         {
-          title: 'No Data Collection',
-          content: 'This website does NOT collect, store, or process any personal data. We do not use contact forms, user accounts, registration systems, or any other mechanism that would require you to provide personal information.'
+          title: 'No Data Collection on Website',
+          content: 'This website does NOT collect, store, or process any personal data. We do not use contact forms, user accounts, registration systems, cookies, analytics, or any tracking technologies on our website.'
         },
         {
-          title: 'Cookies',
-          content: 'This website does not use cookies. No tracking cookies, analytics cookies, or advertising cookies are placed on your device when you visit our website.'
+          title: 'Contact via WhatsApp or Facebook',
+          content: 'When you contact us through WhatsApp or Facebook, any information you provide (name, phone number, message content) is used exclusively for processing your request for a quotation or service inquiry. This contact information is handled directly through those third-party platforms and is subject to their respective privacy policies. We do not store this data on our website servers.'
         },
         {
-          title: 'Analytics',
-          content: 'We do not use any analytics tools or tracking scripts on this website. Your browsing behavior is not monitored, recorded, or analyzed.'
+          title: 'Data Processing Purpose',
+          content: 'Any personal information shared during contact is processed solely for: responding to your inquiry, preparing quotations, scheduling appointments, and providing our window and door installation services. We will never use your contact details for marketing purposes without your explicit consent.'
         },
         {
-          title: 'Third-Party Links',
-          content: 'Our website contains links to third-party services (WhatsApp and Facebook). When you click these links, you leave our website and are subject to the privacy policies of those respective services. We encourage you to review their privacy policies.'
+          title: 'Your Rights (GDPR)',
+          content: 'You have the right to access, rectify, or delete any personal information we may hold. Since we do not store data on this website, please contact us directly via WhatsApp or Facebook to exercise these rights regarding any communications we have had.'
         },
         {
           title: 'GDPR Compliance',
-          content: 'As we do not collect any personal data, the data processing requirements of the General Data Protection Regulation (GDPR) — including consent, data access requests, data portability, and the right to erasure — do not apply to this website. Should this change in the future, we will update this policy accordingly and implement all necessary GDPR compliance measures.'
+          content: 'We are committed to full compliance with the General Data Protection Regulation (GDPR). Any personal data shared via third-party communication channels is processed lawfully, transparently, and securely in accordance with GDPR principles.'
         },
         {
           title: 'Changes to This Policy',
@@ -181,6 +186,11 @@ const translations = {
       rights: 'Alle rechten voorbehouden.',
       privacy: 'Privacybeleid',
       noDataNotice: 'Deze website verzamelt, bewaart of verwerkt geen persoonlijke gegevens.',
+      companyInfo: 'Bedrijfsinformatie',
+      kvkNumber: 'KvK-nummer',
+      btwNumber: 'BTW-nummer',
+      address: 'Adres',
+      toBeDetermined: 'Nader te bepalen',
     },
     privacy: {
       title: 'Privacybeleid',
@@ -191,24 +201,24 @@ const translations = {
           content: 'DB Kozijnen & Deuren ("wij", "ons", "onze") hecht waarde aan de bescherming van uw privacy. Dit privacybeleid legt uit hoe wij omgaan met informatie in verband met onze website.'
         },
         {
-          title: 'Geen Gegevensverzameling',
-          content: 'Deze website verzamelt, bewaart of verwerkt GEEN persoonlijke gegevens. Wij gebruiken geen contactformulieren, gebruikersaccounts, registratiesystemen of andere mechanismen waarvoor u persoonlijke informatie zou moeten verstrekken.'
+          title: 'Geen Gegevensverzameling op Website',
+          content: 'Deze website verzamelt, bewaart of verwerkt GEEN persoonlijke gegevens. Wij gebruiken geen contactformulieren, gebruikersaccounts, registratiesystemen, cookies, analytics of trackingtech­nologieën op onze website.'
         },
         {
-          title: 'Cookies',
-          content: 'Deze website maakt geen gebruik van cookies. Er worden geen tracking cookies, analytics cookies of advertentiecookies op uw apparaat geplaatst wanneer u onze website bezoekt.'
+          title: 'Contact via WhatsApp of Facebook',
+          content: 'Wanneer u contact met ons opneemt via WhatsApp of Facebook, wordt alle informatie die u verstrekt (naam, telefoonnummer, berichtinhoud) uitsluitend gebruikt voor het verwerken van uw aanvraag voor een offerte of dienstverlening. Deze contactinformatie wordt rechtstreeks via deze externe platforms verwerkt en valt onder hun respectieve privacybeleid. Wij slaan deze gegevens niet op onze websiteservers op.'
         },
         {
-          title: 'Analytics',
-          content: 'Wij gebruiken geen analysetools of trackingscripts op deze website. Uw surfgedrag wordt niet gemonitord, vastgelegd of geanalyseerd.'
+          title: 'Doel van Gegevensverwerking',
+          content: 'Alle persoonlijke informatie die tijdens contact wordt gedeeld, wordt uitsluitend verwerkt voor: het beantwoorden van uw aanvraag, het opstellen van offertes, het plannen van afspraken, en het leveren van onze kozijn- en deurmontagediensten. Wij zullen uw contactgegevens nooit gebruiken voor marketingdoeleinden zonder uw uitdrukkelijke toestemming.'
         },
         {
-          title: 'Links naar Derden',
-          content: 'Onze website bevat links naar diensten van derden (WhatsApp en Facebook). Wanneer u op deze links klikt, verlaat u onze website en valt u onder het privacybeleid van de betreffende diensten. Wij raden u aan hun privacybeleid te lezen.'
+          title: 'Uw Rechten (AVG)',
+          content: 'U heeft het recht om toegang te krijgen tot, te corrigeren of te verwijderen van persoonlijke informatie die wij mogelijk bewaren. Aangezien wij geen gegevens op deze website opslaan, kunt u rechtstreeks contact met ons opnemen via WhatsApp of Facebook om deze rechten uit te oefenen met betrekking tot communicatie die wij hebben gehad.'
         },
         {
           title: 'AVG-Naleving',
-          content: 'Aangezien wij geen persoonlijke gegevens verzamelen, zijn de verwerkingsvereisten van de Algemene Verordening Gegevensbescherming (AVG) — waaronder toestemming, toegangsverzoeken, gegevensoverdraagbaarheid en het recht op verwijdering — niet van toepassing op deze website. Mocht dit in de toekomst veranderen, dan zullen wij dit beleid dienovereenkomstig bijwerken.'
+          content: 'Wij zijn toegewijd aan volledige naleving van de Algemene Verordening Gegevensbescherming (AVG). Alle persoonlijke gegevens die via externe communicatiekanalen worden gedeeld, worden rechtmatig, transparant en veilig verwerkt in overeenstemming met de AVG-principes.'
         },
         {
           title: 'Wijzigingen in Dit Beleid',
