@@ -7,8 +7,17 @@ export default function ContactSection() {
   const { t } = useLanguage();
 
   return (
-    <section id="contact" className="py-24 sm:py-32 bg-white relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="relative py-24 sm:py-32 bg-white overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 opacity-[0.03]">
+        <img
+          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/a36982a27_ac1d4308-55ab-4171-990d-766c012ef989.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+      
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-3 py-1 rounded-full bg-orange-50 text-orange-700 text-xs font-semibold tracking-wide uppercase mb-4">
