@@ -61,9 +61,9 @@ export default function AreaSection() {
           >
             <div className="aspect-square rounded-3xl bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden relative">
               <img
-                src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&q=80"
-                alt="Rotterdam map"
-                className="w-full h-full object-cover opacity-20"
+                src="https://images.unsplash.com/photo-1559564484-e48198bd7ff4?w=800&q=80"
+                alt="Nederland kaart"
+                className="w-full h-full object-cover opacity-25"
               />
               {/* Stylized map representation */}
               <div className="absolute inset-0 flex items-center justify-center">
@@ -76,15 +76,15 @@ export default function AreaSection() {
                       </div>
                     </div>
                   </div>
-                  {/* Surrounding location dots */}
+                  {/* Surrounding location dots - Rotterdam area */}
                   {[
-                    { top: '-40px', left: '60px' },
-                    { top: '0px', left: '-50px' },
-                    { top: '60px', left: '70px' },
-                    { top: '-30px', left: '-30px' },
-                    { top: '50px', left: '-40px' },
-                    { top: '-10px', right: '-40px' },
-                    { bottom: '-30px', left: '10px' },
+                    { top: '-35px', left: '-45px' }, // Schiedam
+                    { top: '-40px', left: '-15px' }, // Vlaardingen
+                    { top: '0px', left: '55px' }, // Capelle
+                    { top: '45px', left: '35px' }, // Ridderkerk
+                    { top: '60px', left: '-20px' }, // Barendrecht
+                    { top: '65px', left: '-50px' }, // Spijkenisse
+                    { bottom: '-45px', left: '15px' }, // Dordrecht
                   ].map((style, i) => (
                     <div
                       key={i}
