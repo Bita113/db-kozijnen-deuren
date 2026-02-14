@@ -27,10 +27,10 @@ export default function AreaSection() {
               {t.area.locations.map((location, index) => (
                 <motion.span
                   key={location}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
-                  transition={{ delay: index * 0.05, duration: 0.3 }}
+                  transition={{ delay: index * 0.03, duration: 0.2 }}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-slate-200 text-sm text-slate-700 font-medium shadow-sm"
                 >
                   <MapPin className="w-3 h-3 text-orange-500" />
@@ -53,10 +53,10 @@ export default function AreaSection() {
 
           {/* Right - Map-like Visual */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.4 }}
             className="relative"
           >
             <div className="aspect-square rounded-3xl bg-slate-900 overflow-hidden relative">
