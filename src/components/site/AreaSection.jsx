@@ -27,14 +27,15 @@ export default function AreaSection() {
               {t.area.locations.map((location, index) => (
                 <motion.span
                   key={location}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
+                  initial={{ opacity: 0, scale: 0.92, filter: 'blur(2px)' }}
+                  whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
+                  viewport={{ once: true, amount: 0.8 }}
                   transition={{ 
                     delay: index * 0.04, 
-                    duration: 0.3,
-                    ease: [0.22, 0.61, 0.36, 1]
+                    duration: 0.4,
+                    ease: [0.16, 1, 0.3, 1]
                   }}
+                  whileHover={{ scale: 1.05 }}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-slate-200 text-sm text-slate-700 font-medium shadow-sm"
                 >
                   <MapPin className="w-3 h-3 text-orange-500" />
@@ -57,12 +58,12 @@ export default function AreaSection() {
 
           {/* Right - Map-like Visual */}
           <motion.div
-            initial={{ opacity: 0, x: 15, scale: 0.98 }}
-            whileInView={{ opacity: 1, x: 0, scale: 1 }}
-            viewport={{ once: true }}
+            initial={{ opacity: 0, x: 12, scale: 0.96, filter: 'blur(4px)' }}
+            whileInView={{ opacity: 1, x: 0, scale: 1, filter: 'blur(0px)' }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{ 
-              duration: 0.6,
-              ease: [0.22, 0.61, 0.36, 1]
+              duration: 0.7,
+              ease: [0.16, 1, 0.3, 1]
             }}
             className="relative"
           >

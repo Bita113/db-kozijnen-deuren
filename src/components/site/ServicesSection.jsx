@@ -40,14 +40,15 @@ export default function ServicesSection() {
             return (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 10, scale: 0.98 }}
-                whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                viewport={{ once: true, margin: '-80px' }}
+                initial={{ opacity: 0, y: 8, scale: 0.96, filter: 'blur(4px)' }}
+                whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
+                viewport={{ once: true, margin: '-60px', amount: 0.3 }}
                 transition={{ 
-                  delay: index * 0.08, 
-                  duration: 0.5,
-                  ease: [0.22, 0.61, 0.36, 1]
+                  delay: index * 0.06, 
+                  duration: 0.6,
+                  ease: [0.16, 1, 0.3, 1]
                 }}
+                whileHover={{ scale: 1.02, y: -2 }}
                 className="group relative p-8 rounded-2xl bg-slate-50/80 hover:bg-white border border-slate-100 hover:border-slate-200 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-500"
               >
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-500">
