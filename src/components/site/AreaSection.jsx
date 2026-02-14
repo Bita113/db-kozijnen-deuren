@@ -59,41 +59,12 @@ export default function AreaSection() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="aspect-square rounded-3xl bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden relative">
+            <div className="aspect-square rounded-3xl bg-slate-900 overflow-hidden relative">
               <img
-                src="https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=800&q=80"
-                alt="Nederland kaart"
-                className="w-full h-full object-cover opacity-25"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698b90da9ebb9fa24ae1ca6b/ee4d24b24_IMG_6781.jpg"
+                alt="Rotterdam kaart"
+                className="w-full h-full object-cover"
               />
-              {/* Stylized map representation */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="relative">
-                  {/* Pulsing center point */}
-                  <div className="w-32 h-32 rounded-full bg-orange-500/10 flex items-center justify-center animate-pulse">
-                    <div className="w-20 h-20 rounded-full bg-orange-500/20 flex items-center justify-center">
-                      <div className="w-10 h-10 rounded-full bg-orange-500/40 flex items-center justify-center">
-                        <MapPin className="w-5 h-5 text-orange-600" />
-                      </div>
-                    </div>
-                  </div>
-                  {/* Surrounding location dots - Rotterdam area */}
-                  {[
-                    { top: '-35px', left: '-45px' }, // Schiedam
-                    { top: '-40px', left: '-15px' }, // Vlaardingen
-                    { top: '0px', left: '55px' }, // Capelle
-                    { top: '45px', left: '35px' }, // Ridderkerk
-                    { top: '60px', left: '-20px' }, // Barendrecht
-                    { top: '65px', left: '-50px' }, // Spijkenisse
-                    { bottom: '-45px', left: '15px' }, // Dordrecht
-                  ].map((style, i) => (
-                    <div
-                      key={i}
-                      className="absolute w-2 h-2 rounded-full bg-orange-400/60"
-                      style={style}
-                    />
-                  ))}
-                </div>
-              </div>
 
               {/* Badge */}
               <div className="absolute bottom-6 left-6 right-6">
