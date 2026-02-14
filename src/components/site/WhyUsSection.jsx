@@ -44,10 +44,14 @@ export default function WhyUsSection() {
             return (
               <motion.div
                 key={index}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true, margin: '-100px' }}
-                transition={{ delay: index * 0.05, duration: 0.3 }}
+                initial={{ opacity: 0, y: 10, scale: 0.98 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true, margin: '-80px' }}
+                transition={{ 
+                  delay: index * 0.08, 
+                  duration: 0.5,
+                  ease: [0.22, 0.61, 0.36, 1]
+                }}
                 className={`group p-8 rounded-2xl border border-white/5 hover:border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-all duration-500 ${index === 4 ? 'sm:col-span-2 lg:col-span-1' : ''}`}
               >
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-orange-500/20 to-orange-600/20 flex items-center justify-center mb-5">
