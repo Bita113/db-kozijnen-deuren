@@ -11,6 +11,7 @@ import Footer from '../components/site/Footer';
 import PrivacyModal from '../components/site/PrivacyModal';
 import AlgemeneVoorwaardenModal from '../components/site/AlgemeneVoorwaardenModal';
 import ProjectsModal from '../components/site/ProjectsModal';
+import ProjectsShowcase from '../components/site/ProjectsShowcase';
 
 export default function Home() {
   const [privacyOpen, setPrivacyOpen] = useState(false);
