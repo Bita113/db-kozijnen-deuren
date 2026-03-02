@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { MessageCircle, Facebook, Shield } from 'lucide-react';
 
-export default function Footer({ onPrivacyClick }) {
+export default function Footer({ onPrivacyClick, onTermsClick }) {
   const { t } = useLanguage();
 
   const scrollTo = (id) => {
