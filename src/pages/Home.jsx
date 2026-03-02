@@ -25,6 +25,7 @@ export default function Home() {
         <Navbar />
         <HeroSection onProjectsClick={() => setProjectsOpen(true)} />
         <ServicesSection />
+        <ProjectsShowcase />
         <WhyUsSection />
         <AreaSection />
         <ContactSection />
