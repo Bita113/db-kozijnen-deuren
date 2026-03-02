@@ -57,7 +57,7 @@ export default function ContactSection() {
           </a>
 
           <a
-            href="https://www.facebook.com/darius.budeic"
+            href="https://www.facebook.com/profile.php?id=61588194951463"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center text-center p-10 rounded-2xl bg-blue-50 border-2 border-blue-100 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-100/50 transition-all duration-300 cursor-pointer"

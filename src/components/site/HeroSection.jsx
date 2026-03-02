@@ -74,7 +74,7 @@ export default function HeroSection({ onProjectsClick }) {
               {t.hero.ctaWhatsapp}
             </a>
             <a
-              href="https://www.facebook.com/darius.budeic"
+              href="https://www.facebook.com/profile.php?id=61588194951463"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-3 px-7 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white font-semibold rounded-xl transition-all duration-300 hover:-translate-y-0.5"
@@ -87,7 +87,7 @@ export default function HeroSection({ onProjectsClick }) {
               className="group inline-flex items-center justify-center gap-3 px-7 py-4 bg-orange-500/20 hover:bg-orange-500/30 backdrop-blur-sm border border-orange-500/40 text-white font-semibold rounded-xl transition-all duration-300 hover:-translate-y-0.5"
             >
               <Images className="w-5 h-5 text-orange-400" />
-              Lucrările Noastre
+              {t.hero.ctaProjects}
             </button>
           </motion.div>
         </motion.div>

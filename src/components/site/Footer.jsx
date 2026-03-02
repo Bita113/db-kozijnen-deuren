@@ -71,7 +71,7 @@ export default function Footer({ onPrivacyClick, onTermsClick }) {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/darius.budeic"
+                  href="https://www.facebook.com/profile.php?id=61588194951463"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors"
