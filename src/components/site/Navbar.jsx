@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../LanguageContext';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { base44 } from '@/api/base44Client';
+import { createPageUrl } from '@/utils';
 
 export default function Navbar({ onNavigate }) {
   const { language, setLanguage, t } = useLanguage();
