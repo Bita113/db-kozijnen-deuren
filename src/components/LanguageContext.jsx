@@ -13,7 +13,7 @@ const translations = {
     },
     hero: {
       title: 'Premium Window & Door',
-      titleAccent: 'Installation in Rotterdam',
+      titleAccent: 'Installation in Den Haag',
       subtitle: 'Professional installation, replacement, and full-service solutions for windows and doors. Quality craftsmanship you can trust.',
       ctaWhatsapp: 'Contact via WhatsApp',
       ctaFacebook: 'Visit Our Facebook',
@@ -37,8 +37,8 @@ const translations = {
       title: 'Built on Trust & Craftsmanship',
       subtitle: 'We take pride in delivering exceptional quality and building lasting relationships with every client.',
       items: [
-        { title: 'Experienced Team', description: 'Years of hands-on experience in window and door installation across Rotterdam.' },
-        { title: 'Local Presence', description: 'Based in Rotterdam, we understand the local building standards and climate requirements.' },
+        { title: 'Experienced Team', description: 'Years of hands-on experience in window and door installation across Den Haag.' },
+        { title: 'Local Presence', description: 'Based in Den Haag, we understand the local building standards and climate requirements.' },
         { title: 'Reliable Partners', description: 'We collaborate with trusted manufacturers to guarantee the highest product quality.' },
         { title: 'Professional Work', description: 'Clean, efficient, and respectful — we treat your home as if it were our own.' },
         { title: 'Transparent Communication', description: 'No surprises. Clear timelines, honest pricing, and open communication throughout your project.' },
@@ -46,10 +46,10 @@ const translations = {
     },
     area: {
       sectionLabel: 'Where We Work',
-      title: 'Serving Rotterdam & Surroundings',
-      subtitle: 'Our primary service area covers Rotterdam and the surrounding municipalities. Contact us to check availability in your area.',
-      badge: 'Rotterdam Region',
-      locations: ['Rotterdam', 'Schiedam', 'Vlaardingen', 'Capelle aan den IJssel', 'Ridderkerk', 'Barendrecht', 'Spijkenisse', 'Dordrecht'],
+      title: 'Serving Den Haag & Surroundings',
+      subtitle: 'Our primary service area covers Den Haag and the surrounding municipalities. Contact us to check availability in your area.',
+      badge: 'Den Haag Region',
+      locations: ['Den Haag', 'Delft', 'Rijswijk', 'Zoetermeer', 'Westland', 'Pijnacker', 'Leidschendam', 'Voorburg'],
       cta: 'Not sure if we cover your area? Get in touch!',
     },
     contact: {
@@ -66,7 +66,7 @@ const translations = {
       noData: 'We do not collect any personal data through this website.',
     },
     footer: {
-      tagline: 'Professional window & door installation in Rotterdam and surrounding areas.',
+      tagline: 'Professional window & door installation in Den Haag and surrounding areas.',
       quickLinks: 'Quick Links',
       contactUs: 'Contact Us',
       legal: 'Legal',
@@ -135,7 +135,7 @@ const translations = {
     },
     hero: {
       title: 'Hoogwaardige Kozijnen &',
-      titleAccent: 'Deuren in Rotterdam',
+      titleAccent: 'Deuren in Den Haag',
       subtitle: 'Professionele installatie, vervanging en volledige service voor kozijnen en deuren. Vakmanschap waar u op kunt vertrouwen.',
       ctaWhatsapp: 'Contact via WhatsApp',
       ctaFacebook: 'Bezoek Onze Facebook',
@@ -159,8 +159,8 @@ const translations = {
       title: 'Gebouwd op Vertrouwen & Vakmanschap',
       subtitle: 'Wij zijn trots op het leveren van uitzonderlijke kwaliteit en het opbouwen van duurzame relaties met elke klant.',
       items: [
-        { title: 'Ervaren Team', description: 'Jarenlange praktijkervaring in de installatie van kozijnen en deuren in heel Rotterdam.' },
-        { title: 'Lokale Aanwezigheid', description: 'Gevestigd in Rotterdam — wij kennen de lokale bouwvoorschriften en klimaateisen.' },
+        { title: 'Ervaren Team', description: 'Jarenlange praktijkervaring in de installatie van kozijnen en deuren in heel Den Haag.' },
+        { title: 'Lokale Aanwezigheid', description: 'Gevestigd in Den Haag — wij kennen de lokale bouwvoorschriften en klimaateisen.' },
         { title: 'Betrouwbare Partners', description: 'Wij werken samen met betrouwbare fabrikanten om de hoogste productkwaliteit te garanderen.' },
         { title: 'Professioneel Werk', description: 'Schoon, efficiënt en respectvol — wij behandelen uw woning alsof het onze eigen is.' },
         { title: 'Transparante Communicatie', description: 'Geen verrassingen. Duidelijke planning, eerlijke prijzen en open communicatie gedurende het hele project.' },
@@ -168,10 +168,10 @@ const translations = {
     },
     area: {
       sectionLabel: 'Ons Werkgebied',
-      title: 'Actief in Rotterdam & Omgeving',
-      subtitle: 'Ons primaire werkgebied omvat Rotterdam en de omliggende gemeenten. Neem contact met ons op om de beschikbaarheid in uw regio te controleren.',
-      badge: 'Regio Rotterdam',
-      locations: ['Rotterdam', 'Schiedam', 'Vlaardingen', 'Capelle aan den IJssel', 'Ridderkerk', 'Barendrecht', 'Spijkenisse', 'Dordrecht'],
+      title: 'Actief in Den Haag & Omgeving',
+      subtitle: 'Ons primaire werkgebied omvat Den Haag en de omliggende gemeenten. Neem contact met ons op om de beschikbaarheid in uw regio te controleren.',
+      badge: 'Regio Den Haag',
+      locations: ['Den Haag', 'Delft', 'Rijswijk', 'Zoetermeer', 'Westland', 'Pijnacker', 'Leidschendam', 'Voorburg'],
       cta: 'Niet zeker of wij in uw regio werken? Neem contact op!',
     },
     contact: {
@@ -188,7 +188,7 @@ const translations = {
       noData: 'Wij verzamelen geen persoonlijke gegevens via deze website.',
     },
     footer: {
-      tagline: 'Professionele installatie van kozijnen en deuren in Rotterdam en omstreken.',
+      tagline: 'Professionele installatie van kozijnen en deuren in Den Haag en omstreken.',
       quickLinks: 'Snelkoppelingen',
       contactUs: 'Contact',
       legal: 'Juridisch',
