@@ -18,14 +18,18 @@ export default function AdminDashboard() {
 
   useEffect(() => {
     const init = async () => {
-      const me = await base44.auth.me();
-      if (!me || me.role !== 'admin') {
-        base44.auth.redirectToLogin();
-        return;
+      try {
+        const me = await base44.auth.me();
+        if (!me || me.role !== 'admin') {
+          base44.auth.redirectToLogin(window.location.href);
+          return;
+        }
+        setUser(me);
+        await loadProjects();
+        setLoading(false);
+      } catch {
+        base44.auth.redirectToLogin(window.location.href);
       }
-      setUser(me);
-      await loadProjects();
-      setLoading(false);
     };
     init();
   }, []);
