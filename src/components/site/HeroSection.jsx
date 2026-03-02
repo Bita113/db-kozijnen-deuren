@@ -38,7 +38,7 @@ export default function HeroSection({ onProjectsClick }) {
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 mb-8"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse" />
-            <span className="text-xs font-medium text-white/80 tracking-wide uppercase">Rotterdam, Netherlands</span>
+            <span className="text-xs font-medium text-white/80 tracking-wide uppercase">Den Haag, Netherlands</span>
           </motion.div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight">
