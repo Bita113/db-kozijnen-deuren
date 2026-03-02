@@ -3,7 +3,7 @@ import { useLanguage } from '../LanguageContext';
 import { MessageCircle, Facebook, Images } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-export default function HeroSection() {
+export default function HeroSection({ onProjectsClick }) {
   const { t } = useLanguage();
 
   return (
