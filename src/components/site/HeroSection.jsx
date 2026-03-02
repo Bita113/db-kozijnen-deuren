@@ -82,6 +82,13 @@ export default function HeroSection({ onProjectsClick }) {
               <Facebook className="w-5 h-5" />
               {t.hero.ctaFacebook}
             </a>
+            <button
+              onClick={onProjectsClick}
+              className="group inline-flex items-center justify-center gap-3 px-7 py-4 bg-orange-500/20 hover:bg-orange-500/30 backdrop-blur-sm border border-orange-500/40 text-white font-semibold rounded-xl transition-all duration-300 hover:-translate-y-0.5"
+            >
+              <Images className="w-5 h-5 text-orange-400" />
+              Lucrările Noastre
+            </button>
           </motion.div>
         </motion.div>
 
