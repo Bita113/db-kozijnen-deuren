@@ -10,17 +10,19 @@ import ContactSection from '../components/site/ContactSection';
 import Footer from '../components/site/Footer';
 import PrivacyModal from '../components/site/PrivacyModal';
 import AlgemeneVoorwaardenModal from '../components/site/AlgemeneVoorwaardenModal';
+import ProjectsModal from '../components/site/ProjectsModal';
 
 export default function Home() {
   const [privacyOpen, setPrivacyOpen] = useState(false);
   const [termsOpen, setTermsOpen] = useState(false);
+  const [projectsOpen, setProjectsOpen] = useState(false);
 
   return (
     <LanguageProvider>
       <SEOHead />
       <div className="min-h-screen bg-white antialiased">
         <Navbar />
-        <HeroSection />
+        <HeroSection onProjectsClick={() => setProjectsOpen(true)} />
         <ServicesSection />
         <WhyUsSection />
         <AreaSection />
@@ -28,6 +30,7 @@ export default function Home() {
         <Footer onPrivacyClick={() => setPrivacyOpen(true)} onTermsClick={() => setTermsOpen(true)} />
         <PrivacyModal isOpen={privacyOpen} onClose={() => setPrivacyOpen(false)} />
         <AlgemeneVoorwaardenModal isOpen={termsOpen} onClose={() => setTermsOpen(false)} />
+        <ProjectsModal isOpen={projectsOpen} onClose={() => setProjectsOpen(false)} />
       </div>
     </LanguageProvider>
   );
