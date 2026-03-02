@@ -64,6 +64,16 @@ export default function Navbar({ onNavigate }) {
                 </button>
               ))}
 
+              {/* Admin Link */}
+              {isAdmin && (
+                <a
+                  href={createPageUrl('AdminDashboard')}
+                  className={`px-3 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${scrolled ? 'text-orange-600 hover:text-orange-700 hover:bg-orange-50' : 'text-orange-300 hover:text-orange-200 hover:bg-white/10'}`}
+                >
+                  Admin
+                </a>
+              )}
+
               {/* Language Toggle */}
               <div className={`ml-3 flex items-center rounded-full p-0.5 ${scrolled ? 'bg-slate-100' : 'bg-white/15'}`}>
                 <button
