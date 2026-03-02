@@ -33,7 +33,7 @@ export default function ContactSection() {
         {/* Contact Cards */}
         <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           <a
-            href="https://wa.me/40785570289"
+            href="https://wa.me/31616649530"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center text-center p-10 rounded-2xl bg-emerald-50 border-2 border-emerald-100 hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-100/50 transition-all duration-300 cursor-pointer"
