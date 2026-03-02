@@ -95,10 +95,10 @@ export default function ProjectsShowcase() {
         <div className="flex items-end justify-between mb-10">
           <div>
             <span className="inline-block px-3 py-1 rounded-full bg-orange-50 text-orange-700 text-xs font-semibold tracking-wide uppercase mb-3">
-              {t.language === 'nl' ? 'Onze Werken' : 'Our Works'}
+              {language === 'nl' ? 'Onze Werken' : 'Our Works'}
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
-              {t.language === 'nl' ? 'Recent Afgeronde Projecten' : 'Recently Completed Projects'}
+              {language === 'nl' ? 'Recent Afgeronde Projecten' : 'Recently Completed Projects'}
             </h2>
           </div>
           <div className="hidden sm:flex items-center gap-2">
