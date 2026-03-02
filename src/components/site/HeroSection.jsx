@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
-import { MessageCircle, Facebook } from 'lucide-react';
+import { MessageCircle, Facebook, Images } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
