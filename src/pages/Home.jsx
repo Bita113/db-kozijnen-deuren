@@ -9,9 +9,11 @@ import AreaSection from '../components/site/AreaSection';
 import ContactSection from '../components/site/ContactSection';
 import Footer from '../components/site/Footer';
 import PrivacyModal from '../components/site/PrivacyModal';
+import AlgemeneVoorwaardenModal from '../components/site/AlgemeneVoorwaardenModal';
 
 export default function Home() {
   const [privacyOpen, setPrivacyOpen] = useState(false);
+  const [termsOpen, setTermsOpen] = useState(false);
 
   return (
     <LanguageProvider>
@@ -23,8 +25,9 @@ export default function Home() {
         <WhyUsSection />
         <AreaSection />
         <ContactSection />
-        <Footer onPrivacyClick={() => setPrivacyOpen(true)} />
+        <Footer onPrivacyClick={() => setPrivacyOpen(true)} onTermsClick={() => setTermsOpen(true)} />
         <PrivacyModal isOpen={privacyOpen} onClose={() => setPrivacyOpen(false)} />
+        <AlgemeneVoorwaardenModal isOpen={termsOpen} onClose={() => setTermsOpen(false)} />
       </div>
     </LanguageProvider>
   );
