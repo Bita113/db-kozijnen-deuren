@@ -72,7 +72,7 @@ export default function ContactSection() {
               {t.contact.facebookDesc}
             </p>
             <p className="text-sm font-medium text-slate-700 mb-5">
-              /darius.budeic
+              DB Kozijnen & Deuren
             </p>
             <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white font-semibold rounded-xl group-hover:bg-blue-700 transition-colors text-sm">
               <Facebook className="w-4 h-4" />
