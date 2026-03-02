@@ -71,7 +71,7 @@ function LightboxModal({ project, onClose }) {
 }
 
 export default function ProjectsShowcase() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [projects, setProjects] = useState([]);
   const [selected, setSelected] = useState(null);
   const scrollRef = useRef(null);
