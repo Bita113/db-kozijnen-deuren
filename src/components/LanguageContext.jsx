@@ -46,11 +46,11 @@ const translations = {
     },
     area: {
       sectionLabel: 'Where We Work',
-      title: 'Serving Den Haag & Surroundings',
-      subtitle: 'Our primary service area covers Den Haag and the surrounding municipalities. Contact us to check availability in your area.',
-      badge: 'Den Haag Region',
-      locations: ['Den Haag', 'Delft', 'Rijswijk', 'Zoetermeer', 'Westland', 'Pijnacker', 'Leidschendam', 'Voorburg'],
-      cta: 'Not sure if we cover your area? Get in touch!',
+      title: 'Serving All of the Netherlands',
+      subtitle: 'We provide our professional window and door installation services throughout the entire Netherlands. Contact us wherever you are!',
+      badge: 'Nationwide Coverage',
+      locations: ['Den Haag', 'Amsterdam', 'Rotterdam', 'Utrecht', 'Eindhoven', 'Groningen', 'Tilburg', 'Almere', 'Breda', 'Nijmegen', 'Arnhem', 'Haarlem'],
+      cta: 'We work across the entire Netherlands — get in touch!',
     },
     contact: {
       sectionLabel: 'Get In Touch',
@@ -66,7 +66,7 @@ const translations = {
       noData: 'We do not collect any personal data through this website.',
     },
     footer: {
-      tagline: 'Professional window & door installation in Den Haag and surrounding areas.',
+      tagline: 'Professional window & door installation throughout the Netherlands.',
       quickLinks: 'Quick Links',
       contactUs: 'Contact Us',
       legal: 'Legal',
@@ -168,11 +168,11 @@ const translations = {
     },
     area: {
       sectionLabel: 'Ons Werkgebied',
-      title: 'Actief in Den Haag & Omgeving',
-      subtitle: 'Ons primaire werkgebied omvat Den Haag en de omliggende gemeenten. Neem contact met ons op om de beschikbaarheid in uw regio te controleren.',
-      badge: 'Regio Den Haag',
-      locations: ['Den Haag', 'Delft', 'Rijswijk', 'Zoetermeer', 'Westland', 'Pijnacker', 'Leidschendam', 'Voorburg'],
-      cta: 'Niet zeker of wij in uw regio werken? Neem contact op!',
+      title: 'Actief in Heel Nederland',
+      subtitle: 'Wij bieden onze professionele kozijn- en deurinstallatiesdiensten door heel Nederland aan. Neem contact met ons op, waar u ook bent!',
+      badge: 'Landelijke Dekking',
+      locations: ['Den Haag', 'Amsterdam', 'Rotterdam', 'Utrecht', 'Eindhoven', 'Groningen', 'Tilburg', 'Almere', 'Breda', 'Nijmegen', 'Arnhem', 'Haarlem'],
+      cta: 'Wij werken door heel Nederland — neem contact op!',
     },
     contact: {
       sectionLabel: 'Neem Contact Op',
@@ -188,7 +188,7 @@ const translations = {
       noData: 'Wij verzamelen geen persoonlijke gegevens via deze website.',
     },
     footer: {
-      tagline: 'Professionele installatie van kozijnen en deuren in Den Haag en omstreken.',
+      tagline: 'Professionele installatie van kozijnen en deuren door heel Nederland.',
       quickLinks: 'Snelkoppelingen',
       contactUs: 'Contact',
       legal: 'Juridisch',
