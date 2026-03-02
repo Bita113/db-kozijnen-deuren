@@ -17,6 +17,7 @@ const translations = {
       subtitle: 'Professional installation, replacement, and full-service solutions for windows and doors. Quality craftsmanship you can trust.',
       ctaWhatsapp: 'Contact via WhatsApp',
       ctaFacebook: 'Visit Our Facebook',
+      ctaProjects: 'Our Works',
     },
     services: {
       sectionLabel: 'What We Do',
@@ -138,6 +139,7 @@ const translations = {
       subtitle: 'Professionele installatie, vervanging en volledige service voor kozijnen en deuren. Vakmanschap waar u op kunt vertrouwen.',
       ctaWhatsapp: 'Contact via WhatsApp',
       ctaFacebook: 'Bezoek Onze Facebook',
+      ctaProjects: 'Onze Werken',
     },
     services: {
       sectionLabel: 'Wat Wij Doen',
