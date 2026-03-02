@@ -127,9 +127,11 @@ export default function Footer({ onPrivacyClick, onTermsClick }) {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
             <div className="text-[10px] leading-relaxed text-slate-600 space-y-1">
               <p className="font-semibold text-slate-500 uppercase tracking-wide mb-2">{t.footer.companyInfo}</p>
-              <p><span className="text-slate-500">{t.footer.kvkNumber}:</span> <span className="text-orange-400/80">{t.footer.toBeDetermined}</span></p>
-              <p><span className="text-slate-500">{t.footer.btwNumber}:</span> <span className="text-orange-400/80">{t.footer.toBeDetermined}</span></p>
-              <p><span className="text-slate-500">{t.footer.address}:</span> <span className="text-orange-400/80">{t.footer.toBeDetermined}</span></p>
+              <p><span className="text-slate-500">{t.footer.kvkNumber}:</span> <span className="text-orange-400/80">{t.footer.kvkValue}</span></p>
+              <p><span className="text-slate-500">{t.footer.btwNumber}:</span> <span className="text-orange-400/80">{t.footer.btwValue}</span></p>
+              <p><span className="text-slate-500">{t.footer.address}:</span> <span className="text-orange-400/80">{t.footer.addressValue}</span></p>
+              <p><span className="text-slate-500">{t.footer.phone}:</span> <span className="text-orange-400/80">{t.footer.phoneValue}</span></p>
+              <p><span className="text-slate-500">{t.footer.email}:</span> <span className="text-orange-400/80">{t.footer.emailValue}</span></p>
             </div>
             <div className="text-[10px] leading-relaxed text-slate-600 max-w-2xl">
               <p className="italic">
