@@ -48,7 +48,7 @@ export default function ContactSection() {
               {t.contact.whatsappDesc}
             </p>
             <p className="text-sm font-mono font-medium text-slate-700 mb-5">
-              +40 785 570 289
+              +31 6 16649530
             </p>
             <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-500 text-white font-semibold rounded-xl group-hover:bg-emerald-600 transition-colors text-sm">
               <MessageCircle className="w-4 h-4" />
