@@ -97,6 +97,14 @@ export default function Footer({ onPrivacyClick, onTermsClick }) {
                   {t.footer.privacy}
                 </button>
               </li>
+              <li>
+                <button
+                  onClick={onTermsClick}
+                  className="text-sm text-slate-400 hover:text-white transition-colors"
+                >
+                  {t.footer.terms}
+                </button>
+              </li>
             </ul>
           </div>
         </div>
