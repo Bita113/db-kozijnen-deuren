@@ -60,7 +60,7 @@ export default function Footer({ onPrivacyClick, onTermsClick }) {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="https://wa.me/40785570289"
+                  href="https://wa.me/31616649530"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-emerald-400 transition-colors"

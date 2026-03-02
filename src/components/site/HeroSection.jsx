@@ -65,7 +65,7 @@ export default function HeroSection() {
             className="mt-10 flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="https://wa.me/40785570289"
+              href="https://wa.me/31616649530"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-3 px-7 py-4 bg-emerald-500 hover:bg-emerald-400 text-white font-semibold rounded-xl transition-all duration-300 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-400/30 hover:-translate-y-0.5"
