@@ -36,7 +36,7 @@ export default function AreaSection() {
 
             <p className="mt-8 text-slate-500 text-sm">{t.area.cta}</p>
             <a
-              href="https://wa.me/40785570289"
+              href="https://wa.me/31616649530"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-emerald-600 hover:text-emerald-700 transition-colors"
